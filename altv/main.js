@@ -1,6 +1,21 @@
 $( document ).ready(function() {
 
 
+    for (var i = 0; i < 36; i++) {
+      var sorgenteCodice = $("#boxtemplate").html();
+      console.log(sorgenteCodice);
+
+      var template = Handlebars.compile(sorgenteCodice);
+
+      var daInserire = { classeAggiunta:"box"};
+
+      var html = template(daInserire);
+
+      $(".griglia").append(html);
+    }
+
+
+
 
 
 
