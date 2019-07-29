@@ -1,9 +1,6 @@
 $( document ).ready(function() {
 
 
-
-
-
      var source = "https://flynn.boolean.careers/exercises/api/random/int";
 
 
@@ -35,32 +32,6 @@ $( document ).ready(function() {
          );
        }
      )
-
-
-
-
-
-
-
-
-//   $.ajax(
-//      {
-//         url : apirandnum,
-//         method: "GET",
-//         success: function(data){
-//          console.log(data);
-//          $(".randnum").text(data.response);
-//         },
-//         error: function(){
-//             console.log("c'è stato un errore riprova più tardi.")
-//         }
-//      }
-//   );
-
-//      console.log("io sono prepotente e voglio apparire prima!");
-
-
-
 
 
 });
